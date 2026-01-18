@@ -10897,6 +10897,11 @@ p {
 .background-image,
 [data-bg-src] {
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.footer-one__right .background-image{
+  background-repeat: no-repeat;
   background-size: 85%;
   background-position: center center;
 }
@@ -10915,8 +10920,7 @@ p {
   text-align: center;
 }
 @media only screen and (max-width: 767.98px) {
-  .background-image,
-[data-bg-src] {
+  .footer-one__right .background-image {
   background-repeat: repeat;
   background-size: 400%;
   background-position: unset;
